@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  <title>aditya-pushkar</title>
+  <!-- <link rel="icon" href="favicon.png" type="image/png" sizes="1 -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="src/style.css" />
+
+  <!-- ##################################  FIRST CONTAINER CSS  ################################################ -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- ##################################  PORTFOLIO CONTAINER CSS  ################################################ -->
+  <link rel="stylesheet" href="container-src/container.css">
+
+  <!-- ############################################################ TECH STACK CSS ####################################### -->
+  <link rel="stylesheet" href="techstack/techstack.css">
+
+  <!-- ##################################### CONTACT CSS ################################## -->
+  <link rel="stylesheet" href="contact.css">
+
+  <!-- ############################################################ FOOTER CSS ####################################### -->
+  <link rel="stylesheet" href="footer.css">
+
+</head>
+
+<header class="navbar desktop-menu">
+  <div class="logo">
+    <a href="#"><img src="" alt="my-logo" /></a>
+  </div>
+  <div id="menuSection" class="menu-sec">
+    <ul class="nav-menu">
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div class="social-icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-github"></i>
+    <i class="fas fa-basketball-ball"></i>
+  </div>
+</header>
+<div onclick="closeMobMenuToggle()" id="mobMenuCont" class="mob-menu-container">
+  <img src="src/close.png" alt="close-icon" />
+</div>
+<div id="mobMenuWrap" class="mob-menu-wrap">
+  <div class="menu-content">
+    <div class="menu-items">
+      <ul class="nav-menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="social-items">
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+        <i class="fas fa-basketball-ball"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mobile-menu">
+  <div class="logo">
+    <a href="#"><img src="#" alt="my-logo" /></a>
+  </div>
+  <button onclick="mobMenuToggle()" class="menu" >Menu</button>
+</div>
+
+<body>
+
+  <!-- ######################################### FIRST BODY START'S ######################################################## -->
+
+  <!-- <div class="body-content"> -->
+  <div class="first-box">
+
+    <main class="main-container home-section">
+      <section id="home">
+        <div class="landing-page-details">
+          <h1 class="small-title white " id="h11">Hi, my name is</h1>
+          <h2 class="big-title my-name pink">Aditya</h2>
+          <h3 class="big-title white">I am a full stack Web Developer </h3>
+          <div class="short-bio">
+            <img src="./img/hello.svg" alt="Hello">
+            <p class="white">I help companies to design degital products
+              and turn ideas into delightfull experience
+              .</p>
+          </div>
+          <div class="cta-container email-container">
+            <a href="mail" class="cta email-button">
+              <img src="./img/email.svg" alt="Email Icon">
+              <span>hello@aditya-pushkar.com</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+  <!-- ################################################## END FIRST-CONTAINER ################################################# -->
+
+  <!-- ################################################## PORTFOLIO CONTAINER ################################################# -->
+
+  <section class="projects" id="select-projects">
+    <h2 class="colr">Projects</h2>
+    <p class="section-description">
+      Here are some of the projects I have worked on.<br>
+      You can find more below <a class="hyperlink" href="#">GitHub</a>.
+    </p>
+
+    <div class="project-cards-container " id="portfolio-bg">
+      <div class="card">
+        <img src="./container-src/project-preview/comfy-coffee-preview.png" alt="Project Preview Screenshot"
+          class="card-preview-img">
+        <div class="card-info">
+          <div class="title-and-links">
+            <span class="project-title">
+              Comfy Coffee
+            </span>
+            <div class="project-links">
+              <a href="https://comfy-coffee.anniew.xyz/">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/anniedotexe/comfy-coffee">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+          </div>
+          <p class="project-description">
+            This is the landing page for a fictitious coffee shop called "Comfy
+            Coffee" based on Starbucks'
+            website design.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./container-src/project-preview/twitcord-preview.png" alt="Project Preview Screenshot"
+          class="card-preview-img">
+        <div class="card-info">
+          <div class="title-and-links">
+            <span class="project-title">
+              Twitcord
+            </span>
+            <div class="project-links">
+              <a href="https://twitcord.anniew.xyz/">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/anniedotexe/twitcord">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+          <p class="project-description">
+            A mobile UI concept of "If Twitter was owned by Discord." It was
+            inspired by this <a
+              href="https://www.reddit.com/r/discordapp/comments/lxjoe1/if_twitter_were_owned_by_discord/"
+              class="hyperlink">concept art</a> on Reddit. You can
+            change the nav tabs and toggle on the reaction buttons.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./container-src/project-preview/rnn-twitter-bot-preview.png" alt="Project Preview Screenshot"
+          class="card-preview-img">
+        <div class="card-info">
+          <div class="title-and-links">
+            <span class="project-title">
+              RNN Twitter Bot
+            </span>
+            <div class="project-links">
+              <a href="https://twitter.com/dickinson_rnn">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/anniedotexe/RNN-Twitter-Bot">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-skills">
+            <span>Python</span>
+            <span>GCP</span>
+          </div>
+          <p class="project-description">
+            This is a recurrent neural network Twitter bot written in Python
+            with Tweepy. It was trained to generate text with Emily Dickinson
+            poems. This will tweet newly generated text from the trained model
+            every hour to the <a class="hyperlink" href="https://twitter.com/dickinson_rnn">@dickinson_rnn</a>
+            Twitter account.<br><br>
+            It was originally deployed on a Google
+            Cloud Platform virtual machine
+            instance. However, the free
+            trial period ended, so it is now scheduled to run locally on PC
+            startup.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./container-src/project-preview/tic-tac-toe-preview.png" alt="Project Preview Screenshot"
+          class="card-preview-img">
+        <div class="card-info">
+          <div class="title-and-links">
+            <span class="project-title">
+              Simple TIC-TAC-TOE Game
+            </span>
+            <div class="project-links">
+              <a href="https://tic-tac-toe.anniew.xyz/">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+              <a href="https://github.com/anniedotexe/tic-tac-toe">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-skills">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+          <p class="project-description">
+            This is a fully responsive simple tic-tac-toe game written in HTML,
+            CSS, and JavaScript.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="cta-container">
+      <a href="/projects" class="explore-cta">
+        Explore More
+      </a>
+    </div>
+  </section>
+
+  <!-- ############################################################ TECH STACK ####################################### -->
+
+  <div class="techstack">
+    <!-- <h2 class="colr" style="padding-top: 60px;">Technical</h2> -->
+
+    <section id="tech-stack">
+      <h2 class="colr" style="padding-top: 0px;">Tech Stack</h2>
+      <div class="tech-stack-container">
+        <div class="skill">
+          <img src="./img/git.svg" alt="Git Icon"><span>Git</span>
+        </div>
+        <div class="skill">
+          <img src="./img/html5.svg" alt="HTML5 Icon"><span>HTML5</span>
+        </div>
+        <div class="skill">
+          <img src="./img/css3.svg" alt="CSS3 Icon"><span>CSS3</span>
+        </div>
+        <div class="skill">
+          <img src="./img/javascript.svg" alt="JavaScript Icon">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill">
+          <img src="./img/react.svg" alt="React Icon">
+          <span>React</span>
+        </div>
+        <div class="skill">
+          <img src="./img/markdown.svg" alt="Markdown Icon"><span>Markdown</span>
+        </div>
+        <div class="skill">
+          <img src="./img/java.svg" alt="Java Icon"><span>Java</span>
+        </div>
+        <div class="skill">
+          <img src="./img/python.svg" alt="Python Icon"><span>Python</span>
+        </div>
+        <div class="skill">
+          <img src="./img/firebase.svg" alt="Firebase Icon"><span>Firebase</span>
+        </div>
+        <div class="skill">
+          <img src="./img/aws.svg" alt="AWS Icon"><span>AWS EC2</span>
+        </div>
+        <div class="skill">
+          <img src="./img/gcp.svg" alt="GCP Icon"><span>GCP VM</span>
+        </div>
+        <div class="skill">
+          <img src="./img/vscode.svg" alt="VS Code Icon"><span>VS Code</span>
+        </div>
+        <div class="skill">
+          <img src="./img/windows.svg" alt="Windows Icon"><span>Windows OS</span>
+        </div>
+        <div class="skill">
+          <img src="./img/android.svg" alt="Android Icon"><span>Android OS</span>
+        </div>
+        <div class="skill">
+          <img src="./img/ios.svg" alt="iOS Icon"><span>iOS</span>
+        </div>
+        <div class="skill">
+          <img src="./img/computer.svg" alt="Computer Icon"><span>Computer
+            Hardware</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <!-- ############################################################ END TECH STACK ####################################### -->
+
+  <!-- ########################################################### START CONTACT FORM #################################### -->
+
+
+  <!-- ########################################################### END CONTACT FORM ###################################### -->
+  <div class="contact-body" id="form-ss">
+    <div class="contact-container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="form-title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="img/location.png" class="icon" alt="" />
+              <p>92 Cherry Drive Uniondale, NY 11553</p>
+            </div>
+            <div class="information">
+              <img src="img/email.png" class="icon" alt="" />
+              <p>lorem@ipsum.com</p>
+            </div>
+            <div class="information">
+              <img src="img/phone.png" class="icon" alt="" />
+              <p>123-456-789</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons-form">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="form-title">Contact me</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Subject</label>
+              <span>Subject</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="contact-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+  <!-- ############################################################ FOOTER START ######################################### -->
+
+  <footer class="footer-container">
+    <div class="footer">
+        <div class="footer-column">
+            <a href="/" class="footer-logo">@anniedotexe</a>
+            <div class="socials">
+                <ul>
+                    <li class="social-link">
+                        <a href="https://github.com/anniedotexe" aria-label="GitHub"
+                            target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="https://www.linkedin.com/in/anniewu2303/"
+                            aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="https://twitter.com/anniedotexe" aria-label="Twitter"
+                            target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="https://www.instagram.com/anniedotexe/"
+                            aria-label="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <span class="copyright">&copy; 2021 | Annie Wu</span> -->
+        </div>
+        <div class="footer-column">
+            <a href="/about" class="footer-button">
+                About Me
+            </a>
+            <a href="/projects" class="footer-button">
+                Projects
+            </a>
+            <a href="/photos" class="footer-button">
+                Photos
+            </a>
+        </div>
+        <div class="footer-column">
+            <a href="/blog" class="footer-button">
+                Blog
+            </a>
+            <a href="/anniewu-resume.pdf" class="footer-button">
+                Resume
+            </a>
+            <a href="mailto:anniewu2303@gmail.com" class="footer-button">
+                Contact
+            </a>
+        </div>
+        <div class="footer-column">
+            <a href="/music" class="footer-button">
+                Music
+            </a>
+            <a href="/uses" class="footer-button">
+                Uses
+            </a>
+            <a href="https://www.polywork.com/anniedotexe" class="footer-button">
+                Updates
+            </a>
+        </div>
+    </div>
+  </footer>
+  <!-- ############################################################ FOOTER END ######################################### -->
+
+  <!-- <p>
+      Copyright © 2021 | Developed by
+      <a href="#" target="_blank">Aditya</a>
+    </p>
+  </div> -->
+  <script type="text/javascript" src="src/script.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
